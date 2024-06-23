@@ -1,0 +1,43 @@
+.first-section img {
+    max-height: 800px;
+    object-fit: cover;
+}
+
+.second-section {
+    background-image: url('https://images.pexels.com/photos/169524/pexels-photo-169524.jpeg?auto=compress&cs=tinysrgb&w=600');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.card-custom {
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card-custom:hover {
+    transform: translateY(-10px);
+}
+
+.card-custom img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.card-custom .card-body {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 1.5rem;
+}
+
+.card-custom .btn-primary {
+    transition: background-color 0.3s ease;
+}
+
+.card-custom .btn-primary:hover {
+    background-color: yellow;
+    color: black;
+}
