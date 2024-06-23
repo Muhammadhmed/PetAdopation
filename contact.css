@@ -1,0 +1,33 @@
+.contact-section {
+    background-image: url('https://wallpapers.com/images/featured/beautiful-dog-pictures-4va6htws5c9uopd2.jpg'); /* Update with the actual path to your dog image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    padding: 50px 0;
+    color: white;
+  }
+  
+  .Contact-Image h1 {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  
+  .info-section {
+    padding: 50px 0;
+    background-color: #f9f9f9;
+  }
+  
+  .footer-section {
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+    text-align: center;
+  }
+  
+  .bg-white {
+    background-color: white !important;
+  }
+  
+  
